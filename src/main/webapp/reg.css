@@ -1,0 +1,45 @@
+
+#deregisterBox{
+
+    margin-top:5px;
+    background-color:black;
+    width :1000px;
+    height :300px;
+    float:left;
+    border:2px solid blue;
+    border-radius:40px;
+
+}
+#navTable{
+
+    border:2px solid blue;
+    margin-left :1px;
+    margin-top: 5px;
+    margin-right : auto;
+    padding : -25px;
+    background-color : black;
+    color : white;
+    /*color : ;*/
+    width:1000px;
+    opacity:0.8;
+    border-radius:40px;
+}
+#detailsTable{
+
+
+    background-color : white;
+    color : #000080;
+    text-decoration-color: #FFFFFF;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50px;
+    border:2px solid blue;
+    border-radius:40px;
+    font-family: century Gothic;
+
+}
+#logoTable{
+
+    margin-top: 110px;
+
+}

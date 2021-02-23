@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <link type='text/css' rel='stylesheet' href='cssFile.css'/>
+    <title>Sign Up</title>
+
+    <style>
+
+        .round{
+            border-radius:40px;
+
+        }
+        #round1{
+            border-radius:40px;
+            background: red;
+            font-size: medium;
+        }
+
+        #round2{
+
+            border-radius:40px;
+            background: green;
+            font-size: medium;
+
+        }
+
+    </style>
+
+</head>
+<body>
+
+<div class="container">
+
+    <header>
+
+
+
+        <table id="logoTable">
+
+            <tr>
+
+
+                <td id="logo">
+
+                    <img src="Logo2.jpg" width="100" height="100">
+
+                </td>
+
+                <td>
+
+                    <p class="word">Food Parcel</p>
+
+                </td>
+
+
+            </tr>
+
+        </table>
+
+        <table id="navTable">
+
+            <tr>
+
+
+                <td id="home">
+
+                    <a href="" class = "nav_link">      </a>
+
+                </td>
+
+                <td>
+
+                    <a href="" class = "nav_link">       </a>
+
+                </td>
+
+                <td>
+
+                    <a href="" class = "nav_link">Home</a>
+
+                </td>
+
+                <td>
+
+                    <a href="Login.jsp" class = "nav_link">Login</a>
+
+                </td>
+
+                <td>
+
+
+                    <a href="about.html" class = "nav_link"></a>
+                </td>
+
+            </tr>
+
+        </table>
+
+
+
+    </header>
+
+
+
+    <div id="contact_box">
+
+        <h3>Sign Up As A volunteer</h3>
+        <hr>
+
+        <table>
+
+            <tr>
+
+
+                    <form action="SignUpServlet"  method="post">
+
+                        <td>
+                        <label class="lab">First Name:</label><br>
+                        <input class="round" type="text" name="fname"><br><br>
+                        <label class="lab">Last Name:</label><br>
+                        <input class="round" type="text" name="lname"><br><br>
+                        <label class="lab">User-Name:</label><br>
+                        <input class="round" type="text" name="uname"/><br><br>
+                        <label class="lab">Password:</label><br>
+                        <input class="round" type="password"/><br><br>
+                        <label class="lab">Confirm Password:</label><br>
+                        <input class="round" type="password" name="password"/><br><br>
+
+                            <label class="lab">Province:</label>
+                            <select class="round" id="Province" name="Province">
+                                <option value="Select Province">Province</option>
+                                <option value="Kwazulu Natal">Kwazulu Natal</option>
+                                <option value="Gauteng">Gauteng</option>
+                                <option value="Free State">Free State</option>
+                                <option value="Limpopo">Limpopo</option>
+                                <option value="Northern Cape">Northern Cape</option>
+                                <option value="North West">North West</option>
+                                <option value="Eastern Cape">Eastern Cape</option>
+                                <option value="Mpumalanga">Mpumalanga</option>
+                                <option value="Western Cape">Western Cape</option>
+                            </select>
+
+
+
+                        </td>
+
+                        <td>
+                            <label class="lab">Id Number:</label><br>
+                            <input class="round" type="number" name="idnumber"/><br><br>
+                            <label class="lab">Gender:</label>
+                            <select class="round" id="gender" name="Gender">
+                                <option value="Select Gender">Select Gender</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                            </select><br><br>
+                            <label class="lab">Age:</label><br>
+                            <input class="round" type="number" name="age"/><br><br>
+                            <label class="lab">Phone Number:</label><br>
+                            <input class="round" type="number" name="pnumber"/><br><br>
+                            <label class="lab">Email:</label><br>
+                            <input class="round" type="email" name="email"/><br><br>
+                            <label class="lab">Language:</label>
+                            <select class="round" id="Language" name="language">
+                                <option value="Select Language">Language</option>
+                                <option value="English">English</option>
+                                <option value="IsiZulu">IsiZulu</option>
+                                <option value="IsiXhosa">IsiXhosa</option>
+                                <option value="IsiSwati">IsiSwati</option>
+                                <option value="IsiNdebele">IsiNdebele</option>
+                                <option value="SePedi">SePedi</option>
+                                <option value="SeTshwana">SeTshwana</option>
+                                <option value="SeTshwana">SeTshwana</option>
+                                <option value="TshiTsonga">TshiTsonga</option>
+                                <option value="TshiVenda">TshiVenda</option>
+                                <option value="Afrikaans">Afrikaans</option>
+                            </select><br><br>
+                            <input id="round1" type="button" value="Cancel"/>
+                            <input id="round2" type="submit" value="Sign Up"/>
+
+
+                        </td>
+                    </form>
+
+                <td>
+
+                    <script type="text/javascript">
+
+                        var image1=new Image()
+                        image1.src="volunteerImg.jpg"
+
+                        var image2=new Image()
+                        image2.src="volunteerImg2.jpg"
+
+                        var image3=new Image()
+                        image3.src="volunteerImg3.jpg"
+
+
+                    </script>
+
+                    <img src="lend-a-hand.jpg" name="slide" width="368" height="378">
+                    <script type="text/javascript">
+
+                        var step=1
+                        function slideit() {
+                            document.images.slide.src=eval("image"+step+".src")
+                            if(step<3)
+                                step++
+                            else
+                                step=1
+                            setTimeout("slideit()",6000)
+                        }
+                        slideit()
+
+
+                    </script>
+
+
+
+                </td>
+
+            </tr>
+
+        </table>
+
+
+
+
+    </div>
+
+
+
+    <div id="page_footer">
+
+
+        <p>&copy; 2020 - Food Parcel.Ltd</p>
+        <script type="text/javascript">
+            var todaysDate;
+
+            todaysDate=new Date();
+
+            document.write(todaysDate+"<br>");
+
+        </script>
+
+    </div>
+
+
+</div>
+
+
+
+</body>
+</html>

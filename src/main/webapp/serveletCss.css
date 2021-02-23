@@ -1,0 +1,86 @@
+#pagefooter{
+
+    margin-top:315px;
+    background-color:red;
+    width :997px;
+    height :125px;
+    float:bottom;
+    border:2px solid blue;
+    color:white;
+    font-size:20px;
+    text-align:center;
+    background-color:black;
+    border-radius:40px;
+
+
+}
+#serveletBox{
+
+    margin-top:5px;
+    background-color:black;
+    width :1000px;
+    height :300px;
+    float:left;
+    border:2px solid blue;
+    border-radius:40px;
+
+}
+#loginBox{
+
+    margin-top:5px;
+    background-color:black;
+    width :1000px;
+    height :340px;
+    float:left;
+    border:2px solid blue;
+    border-radius:40px;
+
+}
+#navTable2{
+
+    border:2px solid blue;
+    margin-left :1px;
+    margin-top: -2px;
+    margin-right : auto;
+    padding : -25px;
+    background-color : black;
+    color : white;
+    /*color : ;*/
+    width:1000px;
+    opacity:0.8;
+    border-radius:40px;
+}
+#logoTable{
+
+    margin-top: 110px;
+
+}
+#navTable23{
+
+    border:2px solid blue;
+    margin-left :1px;
+    margin-top: -2px;
+    margin-right : auto;
+    padding : -25px;
+    background-color : black;
+    color : white;
+    /*color : ;*/
+    width:1000px;
+    opacity:0.8;
+    border-radius:40px;
+
+}
+
+#page_footer23{
+    margin-top:352px;
+    background-color:red;
+    width :997px;
+    height :125px;
+    float:bottom;
+    border:2px solid blue;
+    color:white;
+    font-size:20px;
+    text-align:center;
+    background-color:black;
+    border-radius:40px;
+}

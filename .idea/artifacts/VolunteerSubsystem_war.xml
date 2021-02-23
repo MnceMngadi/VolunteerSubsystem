@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="VolunteerSubsystem:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>VolunteerSubsystem</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="VolunteerSubsystem-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="VolunteerSubsystem:war exploded" />
+    </root>
+  </artifact>
+</component>

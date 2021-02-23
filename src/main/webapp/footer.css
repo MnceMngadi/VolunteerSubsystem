@@ -1,0 +1,15 @@
+#theFooter{
+
+    margin-top:315px;
+    background-color:red;
+    width :997px;
+    height :125px;
+    float:bottom;
+    border:2px solid blue;
+    color:white;
+    font-size:20px;
+    text-align:center;
+    background-color:black;
+    border-radius:40px;
+
+}
